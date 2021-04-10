@@ -18,6 +18,12 @@ private String anda;
 	{
 		this.anda = anda;
 	}
+	
+	@Override
+	public void fazerSom()
+	{
+		System.out.println("quero dormir p***a");
+	}
 
 	public String getAnda() {
 		return anda;

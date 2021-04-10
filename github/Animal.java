@@ -1,9 +1,11 @@
 
-public class Animal {
+public abstract class Animal {
 	
 	private String nome;
 	private int idade;
 	private String som;
+	
+	
 	
 	public Animal()
 	{
@@ -16,6 +18,8 @@ public class Animal {
 		this.idade = idade;
 		this.som = som;
 	}
+	
+	abstract public void fazerSom();
 
 	public String getNome() {
 		return nome;

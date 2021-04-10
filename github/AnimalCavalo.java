@@ -18,6 +18,12 @@ private String correr;
 	{
 		this.correr = correr;
 	}
+	
+	@Override
+	public void fazerSom()
+	{
+		System.out.println("pocotopocotopocoto");
+	}
 
 	public String getCorrer() {
 		return correr;

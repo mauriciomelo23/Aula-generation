@@ -18,6 +18,12 @@ public class AnimalCao  extends Animal{
 	{
 		this.corre = corre;
 	}
+	
+	@Override
+	public void fazerSom()
+	{
+		System.out.println("auuuuuu");
+	}
 
 	public String getCorre() {
 		return corre;
